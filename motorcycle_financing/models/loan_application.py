@@ -37,7 +37,7 @@ class LoanApplication(models.Model):
     down_payment = fields.Monetary(
         string='Down Payment',
         currency_field='currency_id',
-        required=True,
+        required=False,
     )
     interest_rate = fields.Float(
         string='Interest Rate (%)',
