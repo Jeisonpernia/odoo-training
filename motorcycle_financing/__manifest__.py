@@ -12,7 +12,9 @@ Streamlines the loan application process for dealerships
     'website': 'https://github.com/Jeisonpernia/odoo-training',
     'autor': 'Jeison Pernia <https://github.com/Jeisonpernia>',
     'data': [],
-    'demo': [],
+    'demo': [
+        'data/loan_demo.xml'
+    ],
     'license': 'OPL-1',
     'application': True,
 }
